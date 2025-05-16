@@ -8,13 +8,19 @@ data-converter = "ddec4336f1"
 sqlite-jdbc = "3.49.1.0"
 shadow = "8.3.6"
 gson = "2.13.1"
+fabric-loader = "0.16.14"
+fabric-loom = "1.10.5"
+minecraft = "1.21.4"
 
 [libraries]
 guava = { module = "com.google.guava:guava", version.ref = "guava" }
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
 data-converter = { module = "com.github.PaperMC:DataConverter", version.ref = "data-converter" }
-sqlite-jdbc = { module = "org.xerial.sqlite-jdbc:sqlite-jdbc", version.ref = "sqlite-jdbc" }
+sqlite-jdbc = { module = "org.xerial:sqlite-jdbc", version.ref = "sqlite-jdbc" }
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+fabric-loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric-loader" }
+minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
 
 [plugins]
 shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
+fabric-loom = { id = "fabric-loom", version.ref = "fabric-loom" }
